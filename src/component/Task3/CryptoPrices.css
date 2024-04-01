@@ -1,0 +1,52 @@
+
+.title{
+    color: white;
+    font-size:30px ;
+}
+.cardUSD {
+    width: 200px;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid olivedrab;
+    border-radius: 4px;
+    margin-right: 270px;
+    color: yellowgreen;
+}
+
+.cardEURO{
+    width: 200px;
+    padding: 10px;
+    margin: -160px;
+    border: 1px solid olivedrab;
+    border-radius: 4px;
+    margin-left: 250px;
+    color: yellowgreen;
+}
+
+.cryptoprices-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.crypto-card {
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .crypto-card {
+        width: 300px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .crypto-card {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+}
